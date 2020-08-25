@@ -262,13 +262,37 @@
                 margin:30px;
             }
 
+            .box-container{
+                display: flex;
+                flex-flow:column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .box.services{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 100%;
+                margin:16px 0;
+            }
+
+            .action-btn.red,.action-btn.blue{
+                margin:0;
+                margin-bottom:32px;
+            }
+
+            .fas{
+                display:none;
+            }
+
         }
 
         /*Smartphones*/
         @media screen and (max-width:450px) {
 
             .hero-container{
-                padding:16px 0;
+                padding: 16px 0;
             }
             
             h1{
