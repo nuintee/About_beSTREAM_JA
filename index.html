@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About beSTREAM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class ="hero-container">
+            <h1>beSTREAMは、ビジネス向け［VLOG動画プラットホーム］と<br>［VLOG取材・編集サービス］をワンストップで行なっています。</h1>
+            <a href ="#" class = "action-btn try">無料で試してみる</a>
+        </div>
+
+        <article class ="article mid">
+            <h2>企業活動を動画化しなければならない背景</h2>
+            <p>YouTube化されてきた現代人は、テキストを読むことが億劫になり、 動画で手取り早く情報を理解したいと感じています。</p>
+        </article>
+
+        <article class ="panels-container darker">
+            
+            <h2 class ="mid">ワンストップソリューション</h2>
+            <div class ="box-container">
+                <div class="box services">
+                    <h5>biz VLOG プラットホーム</h5>
+                    <img src="images/beSTREAM.png" alt="beSTREAM_logo" class ="logos">
+                    <a href="#" class ="action-btn red">詳しくはこちら</a>
+                </div>
+                <i class ="fas fa-plus"></i>
+                <div class="box services">
+                    <h5>biz VLOG 取材・編集サービス</h5>
+                    <img src="images/bemer.png" alt="beMer_goes_logo" class = "logos">
+                    <a href="#" class ="action-btn blue">詳しくはこちら</a>
+                </div>
+
+            </div>
+
+        </article>
+
+        <article>
+            <div class ="txt-wrapper">
+                <h2>ビジネスの動画化のカギは “VLOG”</h2>
+            <p>いま企業は「VLOG的考え」を取り込む必要があります。<br>VLOG的考えとは、ユーザーと企業のすべてのコミュニケーションを動画化することです。 <br>企業は動画をカジュアルに使いこなす必要がでてきました。<br><br> ※ VLOG(ブイログ)とはVideoブログの略です。</p>
+            </div>
+            <img src="images/key_vlog.png" alt="">
+        </article>
+        <article class="article darker right">
+            <img src="images/vlog_diff.png" alt="">
+            <div class ="txt-wrapper">
+                <h2>「いままでの動画」と「VLOG」の違い</h2>
+            <p>動画にもトレンドがあります。<br>ユーザーは自分と目の高さが同じものに親近感を抱きます。<br>動画トレンドはよりカジュアルなものになっています。</p>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <style>
+
+        html *{
+            margin:0;
+            font-family:"Meiryo",sans-serif;
+            box-sizing: border-box;
+        }
+
+        h1{
+            font-size:1.8em;
+            margin:1em;
+            color:#FFF;
+            }
+
+            main{
+                display:flex;
+                flex-flow: column;
+            }
+
+            .hero-container{
+                padding:5rem;
+                width:100%;
+                height:50vh;
+                background-color:#D2E007;
+                display: flex;
+                flex-direction:column;
+                justify-content: center;
+                align-content: center;
+                align-content:space-between;
+                text-align: center;
+            }
+
+            /* Buttons */
+
+            .action-btn{
+                padding:1.3rem;
+                text-decoration:none;
+                align-self: center;
+                background-color:hsla(0, 1%, 32%, 1);
+                color:#FFF;
+                font-size:0.8em;
+                margin-top: 2rem;
+            }.action-btn:hover{
+                background-color:hsla(0, 1%, 22%, 1);
+            }
+
+            .action-btn.red{
+                background-color: hsla(341, 78%, 54%, 1);
+                margin-bottom: 2rem;
+            }.action-btn.red:hover{
+                background-color: hsla(341, 78%, 44%, 1);
+            }
+
+            .action-btn.blue{
+                background-color: hsla(225, 79%, 52%, 1);
+                margin-bottom: 2rem;
+            }.action-btn.blue:hover{
+                background-color: hsla(225, 79%, 42%, 1);
+            }
+
+
+            article{
+                display: flex;
+                flex-flow: row;
+                justify-content: space-between;
+                justify-items: center;
+                align-items: center;
+                padding:5rem 20%;
+            }
+
+            article.darker.right{
+                text-align: right;
+
+            }
+
+            article.mid{
+                text-align:center;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+            }
+
+            article.darker{
+                background-color:hsla(0, 0%, 98%, 1);
+            }
+
+            .panels-container{
+                display: flex;
+                flex-flow: column;
+            }
+
+            .box-container{
+                display: flex;
+                flex-flow: row;
+                justify-content: space-around;
+                width:100%;
+                flex-wrap: nowrap;
+            }
+
+            .box{
+                display: flex;
+                justify-content: center;
+                background-color:#FFF;
+                height:30vh;
+                width:30vh;
+            }
+
+            .box.services{
+                display: flex;
+                flex-flow: column;
+                justify-content: space-between;
+                text-align: center;
+                background-color:#FFF;
+                height:30vh;
+                width:30vh;
+            }
+
+
+            h2{
+                margin:20px 0;
+                color:hsla(0, 1%, 32%, 1);
+            }
+
+            h2.mid{
+                text-align:center;
+                margin:36px;
+            }
+
+            h4{
+                align-self:center;
+                justify-self: center;
+                margin:0;
+                font-size:2vh;
+            }
+
+            /*Box Title*/
+            h5{
+                margin-top:2rem;
+                color:hsla(0, 0%, 68%, 1);
+            }
+
+            p{
+                color:hsla(0, 1%, 32%, 1);
+                line-height: 30px;
+            }
+
+            .fas{
+                align-self:center ;
+                justify-self: center;
+                margin:32px;
+                font-size:2rem;
+                color:hsla(0, 0%, 68%, 1);
+            }
+
+            article img{
+                object-fit:contain;
+                margin:0 16px;
+                height:10em;
+            }
+
+            .logos{
+                object-fit:contain;
+                height:3em;
+            }
+
+            .txt-wrapper{
+               justify-self: center;
+               height: 100%;
+
+            }
+
+
+        /*Tablet*/
+        @media screen and (max-width:1024px) {
+
+            h1{
+                font-size:24px;
+            }
+
+            article{
+                display: flex;
+                flex-flow: row;
+                flex-wrap: wrap;
+                justify-items: center;
+                justify-content: center;
+            }
+
+            article h2{
+                text-align: center;
+            }
+
+            article p{
+                text-align: center;
+            }
+
+            article img{
+                margin:30px;
+            }
+
+        }
+
+        /*Smartphones*/
+        @media screen and (max-width:450px) {
+
+            .hero-container{
+                padding:5%;
+            }
+            
+            h1{
+                font-size:20px;
+            }
+
+            h2{
+                font-size:20px;
+            }
+
+            h2.mid{
+                margin-bottom:18px;
+            }
+
+            .action-btn.try{
+                margin:0;
+            }
+
+            .panels-container.darker{
+                padding: 5%;
+            }
+
+            .box-container{
+                display: flex;
+                flex-flow:column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .box.services{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 100%;
+                margin:16px 0;
+            }
+
+            .action-btn.red,.action-btn.blue{
+                margin:0;
+                margin-bottom:32px;
+            }
+
+            .fas{
+                display:none;
+            }
+
+        }
+
+        
+
+    </style>
+</body>
+</html>
